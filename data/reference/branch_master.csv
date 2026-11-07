@@ -1,0 +1,17 @@
+branch_code,branch_name,region
+BR01,Ahmedabad,West
+BR02,Bengaluru,South
+BR03,Chandigarh,North
+BR04,Chennai,South
+BR05,Delhi,North
+BR06,Hyderabad,South
+BR07,Indore,West
+BR08,Jaipur,North
+BR09,Kochi,South
+BR10,Kolkata,East
+BR11,Lucknow,North
+BR12,Mumbai,West
+BR13,Nagpur,West
+BR14,Patna,East
+BR15,Pune,West
+BR16,Surat,West

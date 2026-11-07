@@ -1,0 +1,38 @@
+branch_code,day,service,error_kind,field,expected_outcome
+BR05,1,Standard,branch_text,branch,Auto-fixed
+BR08,2,Express,branch_text,branch,Auto-fixed
+BR04,3,Standard,branch_text,branch,Auto-fixed
+BR13,2,Express,service_text,service,Auto-fixed
+BR02,4,Standard,service_text,service,Auto-fixed
+BR09,0,Standard,service_text,service,Auto-fixed
+BR01,2,Standard,number_as_text,booked,Auto-fixed
+BR12,3,Express,number_as_text,revenue,Auto-fixed
+BR03,1,Express,date_as_text,date,Auto-fixed
+BR02,2,Express,date_as_serial,date,Auto-fixed
+BR03,3,Standard,blank,booked,Excluded
+BR12,1,Standard,blank,revenue,Excluded
+BR14,2,Standard,blank,fuel_cost,Excluded
+BR02,1,Standard,set,returned,Excluded
+BR09,3,Express,set,fuel_cost,Excluded
+BR07,0,Standard,over_booked,delivered,Excluded
+BR15,2,Express,over_booked,delivered,Excluded
+BR10,2,Standard,on_time_over,on_time,Excluded
+BR06,3,Express,on_time_over,on_time,Excluded
+BR01,1,Express,date,date,Excluded
+BR08,4,Standard,date,date,Excluded
+BR11,4,Express,date,date,Excluded
+BR05,3,Express,date,date,Excluded
+BR12,0,Express,branch_text,branch,Excluded
+BR09,2,Standard,branch_text,branch,Excluded
+BR04,1,Express,set,delivered,Excluded
+BR13,3,Standard,set,revenue,Excluded
+BR02,3,Express,service_text,service,Excluded
+BR05,4,Standard,revenue_x100,revenue,Excluded
+BR15,1,Standard,revenue_x100,revenue,Excluded
+BR06,1,Standard,exact_duplicate,,Removed duplicate
+BR11,2,Standard,exact_duplicate,,Removed duplicate
+BR13,0,Express,exact_duplicate,,Removed duplicate
+BR03,4,Express,conflicting_duplicate,booked,Excluded
+BR10,0,Express,conflicting_duplicate,booked,Excluded
+BR13,6,,missing_day,,Follow up
+BR16,,,missing_file,,Follow up

@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Excel lock files
+~$*
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
